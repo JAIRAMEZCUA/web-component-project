@@ -3,7 +3,7 @@ import { html, css, LitElement } from 'lit';
 import { ScopedElementsMixin } from '@open-wc/scoped-elements/lit-element.js';
 import { CellsPageMixin } from '@cells/cells-page-mixin';
 import { DemoSphericaTemplate } from '@cells-demo/demo-spherica-template';
-import { MyCustomElementNotifica } from '../../../../../componentes/my-custom-element-notifica/src/MyCustomElementNotifica.js';
+import { MyCustomElementNotifica } from '../../components/my-custom-element-notifica/src/MyCustomElementNotifica.js';
 
 class CountPage extends CellsPageMixin(ScopedElementsMixin(LitElement)) {
   static get scopedElements() {

@@ -5,7 +5,7 @@ import { ScopedElementsMixin } from '@open-wc/scoped-elements/lit-element.js';
 import { DemoSphericaTemplate } from '@cells-demo/demo-spherica-template';
 import styles from './first-page.css.js';
 import { MyCustomElementMenu } from '@cells-components/my-custom-element-menu';
-import { MyCustomElementNotifica } from '../../../../../componentes/my-custom-element-notifica/src/MyCustomElementNotifica.js';
+import { MyCustomElementNotifica } from '../../components/my-custom-element-notifica/src/MyCustomElementNotifica.js';
 
 class FirstPage extends CellsPageMixin(ScopedElementsMixin(LitElement)) {
   static get scopedElements() {
