@@ -15,7 +15,6 @@
     "@cells/cells-page-mixin": "^1.0.0",
     "@open-wc/scoped-elements": "^3.0.0",
     "cells-app-template": "^6.0.0",
-    "lit": "^3.2.0",
-    "my-custom-element-notifica": "link:../../../componentes/my-custom-element-notifica"
+    "lit": "^3.2.0"
   }
 }

@@ -32,9 +32,6 @@ importers:
       lit:
         specifier: ^3.2.0
         version: 3.3.1
-      my-custom-element-notifica:
-        specifier: link:../../../componentes/my-custom-element-notifica
-        version: link:../../../componentes/my-custom-element-notifica
 
 packages:
 
