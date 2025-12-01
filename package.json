@@ -1,0 +1,21 @@
+{
+  "name": "menu-nave",
+  "version": "0.1.0",
+  "keywords": [
+    "cells-app",
+    "scaffold",
+    "blank",
+    "Lit 3"
+  ],
+  "dependencies": {
+    "@bbva-web-components/bbva-core-scoped-custom-element-registry": "^0.1.0",
+    "@bbva-web-components/bbva-foundations-font-face-theme": "^2.0.0",
+    "@cells-demo/demo-spherica-template": "^1.0.0",
+    "@cells/cells-bridge": "^3.22.0",
+    "@cells/cells-page-mixin": "^1.0.0",
+    "@open-wc/scoped-elements": "^3.0.0",
+    "cells-app-template": "^6.0.0",
+    "lit": "^3.2.0",
+    "my-custom-element-notifica": "link:../../../componentes/my-custom-element-notifica"
+  }
+}
