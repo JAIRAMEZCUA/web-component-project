@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>my-custom-element-notifica demo</title>
+    <link rel="icon" href="./favicon.svg">
+    <script>
+      window.IntlMsg = window.IntlMsg || {};
+      window.IntlMsg.lang = document.documentElement.lang;
+      window.IntlMsg.localesHost = '.';
+    </script>
+    <script type="module" src="./demo.js"></script>
+  </head>
+
+  <body>
+    <h1>Componente de Notificación</h1>
+    <h2>Contador dinámico:</h2>
+    <my-custom-element-notifica id="dynamic"></my-custom-element-notifica>
+    <button onclick="document.getElementById('dynamic').count++">Incrementar</button>
+    <button onclick="document.getElementById('dynamic').count--">Decrementar</button>
+  </body>
+</html>

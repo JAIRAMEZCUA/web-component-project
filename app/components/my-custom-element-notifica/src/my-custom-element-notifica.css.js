@@ -1,0 +1,35 @@
+import { css, unsafeCSS } from 'lit';
+import * as foundations from '@bbva-web-components/bbva-foundations-styles';
+
+export default css`
+:host {
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+:host([hidden]), [hidden] {
+  display: none !important;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.notification-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background-color: #dc3545;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.count {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1;
+}
+`;
